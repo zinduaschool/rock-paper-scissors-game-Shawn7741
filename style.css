@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#choices {
+    margin-bottom: 20px;
+    border: 60px;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    margin: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#score {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#reset {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
