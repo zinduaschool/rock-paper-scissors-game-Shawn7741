@@ -25,7 +25,7 @@ function playRound(player1Choice, player2Choice) {
         return 'Player 1 wins!';
     } else {
         player2Score++;
-        return 'Player 2 wins!';
+        return 'Shawn wins!';
     }
 }
 
